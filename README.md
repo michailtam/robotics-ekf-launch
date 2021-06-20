@@ -1,0 +1,3 @@
+# Handle an EKF (Extended Kalman Filter) in ROS using Turtlebot Gazebo and Rviz - ROBOTICS
+The repsitory contains a launch file which comprises the necessary nodes (i.e. ROS packages) to start the turtlebot in the gazebo world, use a fake lazer, execute a pose ekf, plot using the ekf plotter, handles the odometry trajectory, handles the turtlebot teleop keyboard and starts Rviz containing all the necessary settings to track the path the robot is traversing. The red and green paths denote the filtered and unfiltered trajectories as the robot moves and collects sensor data. In this context Rviz gets used to show that the EKF (Extended Kalman Filter) filters out uncertainties and estimates the robot pose while it is moving in space.
+
