@@ -18,7 +18,7 @@ git clone https://github.com/turtlebot/turtlebot
 ```
 
 ## Important
-Don't forget to source your catkin workspace and install the dependencies (if needed).
+Don't forget to source your catkin workspace and install the dependencies (if needed). For example to install dependencies for the turtlebot_teleop package issue the following in the terminal.
 ```
 source devel/setup.bash
 rosdep -i install turtlebot_teleop
